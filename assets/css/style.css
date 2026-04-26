@@ -863,7 +863,16 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   .hero-actions { justify-content: center; }
   .hero-stats { margin-inline: auto; flex-wrap: wrap; }
   .hero-image-wrapper { order: -1; }
-  .hero-img { aspect-ratio: 3/2; max-height: 360px; object-position: top; }
+  .hero-img { aspect-ratio: 4/5; max-height: 420px; object-position: top; }
+  .hero-badge {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    transform: none;
+    margin-top: var(--space-4);
+    margin-inline: auto;
+    width: fit-content;
+  }
 
   /* About */
   .about-grid { grid-template-columns: 1fr; }
